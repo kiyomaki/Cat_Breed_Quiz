@@ -1,4 +1,4 @@
-const apiKey = 'live_VWzSaUK2NGG1ieBh8OFf0FiYWZXOAQ757wbH3J1nDBwRBlcjwkpAw73WIbWm60Ho';  // The Cat APIから取得したAPIキーをここに入力
+const apiKey = '';  // The Cat APIから取得したAPIキーをここに入力
 const breedListUrl = 'https://api.thecatapi.com/v1/breeds';
 let questionCount = 1;  // 問題数をカウントする変数
 // プレースホルダー画像

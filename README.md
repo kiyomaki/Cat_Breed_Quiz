@@ -58,16 +58,16 @@
 ## 設定
 1. **APIキーの設定**: `cats.js` 内の `apiKey` 変数を自分のThe Cat APIのAPIキーに置き換えます。
 
-   ```js
+  ```js
    const apiKey = '';  // 実際のAPIキーをここに入力
   ```
 
 2. **画像の設定**: 必要な背景画像やスタイルシートが正しく配置されていることを確認します。
    `backyard.css` で背景画像のパスを指定できます。
 
-   ```css
+  ```css
     background-image: url("your-image.jpg");
-   ```
+  ```
 
 ## ライセンス・著作権
 - このソフトウェアはMITライセンスの下で提供されています。

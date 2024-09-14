@@ -1,0 +1,39 @@
+/* 全体的に左寄せするためのスタイル */
+body {
+  text-align: left;
+  margin-left: 30px; /* ここで全体の左側の余白を調整 */
+}
+
+#catImage {
+  display: block;
+  margin-left: 0; /* 画像を左に揃える */
+}
+
+#question, #choices, #description, #result {
+  margin-left: 0; /* 他の要素を左寄せ */
+}
+
+button {
+  margin-left: 0; /* ボタンも左寄せ */
+}
+
+h1 {
+  font-family: "Nico Moji";
+}
+
+h3 {
+  margin-top: -20px;
+  margin-bottom: 5px; 
+}
+
+/* クッキー情報を右下に固定表示するスタイル */
+#cookieInfo {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+}

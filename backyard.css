@@ -1,0 +1,9 @@
+body {
+  background-image: url("cats_backyard.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}

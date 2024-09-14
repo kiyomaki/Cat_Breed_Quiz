@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="backyard.css"><!--背景css呼び出し-->
+    <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- style.cssを読み込む -->
+    <script type="text/javascript" src="cookie.js"></script> <!-- cookie.jsを読み込む -->
+    
+    <title>無限・猫の品種クイズ</title>
+</head>
+<body>
+    <h1>無限・猫の品種クイズ</h1>
+    <h3 id="questionNumber">第1問</h3> <!-- 問題番号を表示する場所 -->
+    <img id="catImage" src="https://i.ytimg.com/vi/v3vw7fhxrW0/maxresdefault.jpg" alt="猫の画像" style="max-width: 20%; height: auto;">
+    <p id="question"></p>
+    <div id="choices"></div>
+    <p id="result"></p> <!-- 正解・不正解の結果を表示する場所 -->
+    <p id="description"></p> <!-- 猫の説明が表示される場所 -->
+    
+    <!-- 次の問題へ進むボタン -->
+    <button id="nextButton">次の問題へ進む</button>
+
+    <!-- 画面右下に表示されるクッキー情報 -->
+    <div id="cookieInfo"></div>
+
+    <script src="cats.js"></script>
+</body>
+</html>
